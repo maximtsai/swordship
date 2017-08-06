@@ -9,15 +9,16 @@
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/releasebrowser.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TemplateData.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body style="background-color:#111111;">
+    <a target="_blank" title="Facebook Profile" href="https://twitter.com/SwordshipDev" style="position:absolute; right:20px; top: 10px;"><img alt="Swordship Twitter" class="icon" src="twitterlogo.png" border=0></a>
     <div style="text-align:center; font-size: 3em; color: white">
       SWORDSHIP
     </div>
-    <div style="text-align:center; color: white">
-      INSTRUCTIONS: Player 1 WASD movement, F to equip, G to shoot. Player 2 arrow keys movement, K to equip, L to shoot. Game by Maxim Tsai
+    <div style="text-align:center; font-size: 0.85em; color: white">
+      ALPHA DEMO
     </div>
     <br>
     <div class="webgl-content" style="top:410px">
@@ -40,8 +41,23 @@
     <br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br>
+    <br><br><br>
+    <div style="font-family: Arial; text-align:left; color: white; padding-left: calc(50% - 480px); width: 960px">
+      Swordship is a game where you fight with spaceships that can wield swords. Pick a weapon and destroy your opponent in one-on-one physics based combat. Game currently under development with updates on our <a target="_blank" href="https://twitter.com/SwordshipDev" style="text-decoration: none; color: #4444FF">Twitter</a>.
     
+      <br>
+      <br>
+      INSTRUCTIONS: Two-player gameplay
+      <br>
+      Player 1 WASD movement, F to equip, G to shoot. 
+      <br>
+      Player 2 arrow keys movement, K to equip, L to shoot. 
+      <br>
+      P to pause
+      <br>
+      <br>
+      Game by Maxim Tsai, with special thanks to Bryan Tai, Sunny Lee and Max Wei
+    </div>
     <div id="mc_embed_signup" style="background-color: #111111; padding: 10px; margin:auto; padding-left: calc(50% - 480px); padding-right: calc(50% - 480px)">
     <form action="//twitter.us15.list-manage.com/subscribe/post?u=69b81563aab996c99069805b4&amp;id=42cea9f205" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
